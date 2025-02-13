@@ -19,43 +19,23 @@ body {
   border-radius: 0.6em;
   box-shadow: 0 1.5em 3em rgba(3, 21, 55, 0.3);
 }
-#userInput {
+.userInput {
   width: 100%;
   border: none;
   border-bottom: 2px solid #000000;
   padding: 0.5em 1em;
   font-size: 1em;
   outline: none;
+  max-width: 400px;
 }
-.options {
-  margin-top: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-select {
-  appearance: none;
-  width: 8em;
-  padding: 0.45em 0.9em;
-  font-size: 1.25em;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  background-color: #c84300;
-  border: none;
-  color: #ffffff;
-  background-image: url("arrow.png");
-  background-repeat: no-repeat;
-  background-size: 1.1em;
-  background-position: 6em;
-  outline: none;
-  border-radius: 0.3em;
-}
+
+
 select::-ms-expand {
   display: none;
 }
 select option {
   background-color: #ffffff;
-  color: #bd5c00;
+  color: #377dff;
   letter-spacing: 0.06em;
   font-weight: 400;
   font-size: 1.12em;
@@ -105,14 +85,14 @@ select option {
 }
 .box button {
   background-color: transparent;
-  color: #377dff;
-  border: 0.18em solid #377dff;
+  color: #075151;
+  border: 0.18em solid #075151;
 }
 .box a {
-  background-color: #377dff;
+  background-color: #075151;
   color: #ffffff;
   text-decoration: none;
-  border: 0.18em solid #377dff;
+  border: 0.18em solid ;
 }
 .container {
   display: flex;
