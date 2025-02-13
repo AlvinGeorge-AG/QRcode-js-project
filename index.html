@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="color" id="FGColor" class="color-inp">
+      <textarea id="userInput" placeholder="Enter some text or URL"></textarea>
+      
+      <div  class="container">
+        <img alt="" src="" id="img" class="img" >
+      </div>
+      <div class="box">
+        <button id="submit" onclick="render()">Generate</button>
+        <a href="#" id="download">Download</a>
+      </div>
+      <div class="container"></div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
