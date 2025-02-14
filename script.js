@@ -11,18 +11,18 @@ colour_selector.addEventListener('input',()=>{
 })
 
 //Calls an API and generate the QR code
-async function render(){
+function render(){
     const input_content = document.getElementById('userInput').value;
     if(input_content===''){alert("Enter something as Text!")}
     else{
         try{
-            const imglink = await fetch("https://quickchart.io/qr?text="+input_content+"&dark="+newcolorcode+"&light=ffffff&ecLevel=H&format=png&size=400");
+            const imglink = "https://quickchart.io/qr?text="+input_content+"&dark="+newcolorcode+"&light=ffffff&ecLevel=H&format=png&size=400";
             document.getElementById('img').src=imglink;
         }
         catch(error){alert(error)};
     };
 }
-
+//downloads the image qr
 download_btn.addEventListener('click', async ()=>{
     const input_content = document.getElementById('userInput').value;
     if(input_content===''){
