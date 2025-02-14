@@ -43,10 +43,3 @@ download_btn.addEventListener('click', async ()=>{
 });
 //API USED =>
 //"https://quickchart.io/qr?text=HelloWorld&light=blue&dark=white&ecLevel=H&format=png&size=400" 
-//controls input and stimulate generate button
-//document.getElementById('submit').disabled = true;
-// async function input()
-//     {
-//         await new Promise((resolve)=>{input_element.addEventListener('input', ()=>{document.getElementById('submit').disabled = false;})});
-//     }
-// input()

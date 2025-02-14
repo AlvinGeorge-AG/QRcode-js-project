@@ -12,7 +12,7 @@ body {
   background-color: #ffff;
   padding: 5em 4em;
   position: absolute;
-  width: 31.25em;
+  width: 42%;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -27,6 +27,7 @@ body {
   font-size: 1em;
   outline: none;
   max-width: 400px;
+  min-width: 400px;
 }
 
 
