@@ -3,11 +3,16 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapper">
@@ -18,11 +23,15 @@
         <img alt="" src="" id="img" class="img" >
       </div>
       <div class="box">
-        <button id="submit" onclick="render()">Generate</button>
-        <a href="#" id="download">Download</a>
+        <button id="submit" onclick="render()" class="btn btn-primary">Generate</button>
+        <a href="#" id="download" class="btn btn-secondary">Download</a>
       </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
